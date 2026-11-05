@@ -24,6 +24,7 @@ provisioning, reconciliation) into modular, tested and observable pipelines.
 | [**reconciliation-toolkit**](https://github.com/tecozu/reconciliation-toolkit) | Cash application (payments ↔ receivables), OFX/CSV bank statements with dedup and balance continuity, dataset comparison and file-health checks. |
 | [**ecommerce-price-tracker**](https://github.com/tecozu/ecommerce-price-tracker) | Price history from Mercado Livre and the Shopee API. Separates real deals from fake discounts using trailing baselines and SCD2, and tests the classifier against ground truth. |
 | [**weather-data-pipeline**](https://github.com/tecozu/weather-data-pipeline) | Airflow + dbt + Postgres + Superset in Docker. Hourly idempotent ingestion with a replayable JSONB payload; CI runs the real pipeline. |
+| [**dropkit**](https://github.com/tecozu/dropkit) | Monitoring for the files partners send you: delivery SLAs on the B3 business-day calendar, SQL job alerts that fire once, Teams/Slack notifications, plus transfer, search, unzip and consolidation over local, S3 and SFTP. |
 | [**csv-layout-validator**](https://github.com/tecozu/csv-layout-validator) | YAML data contracts for partner files: typed rules, CPF/CNPJ, cross-column checks, CI-friendly reports. |
 | [**cnab-toolkit**](https://github.com/tecozu/cnab-toolkit) | Spec-driven generator, parser and validator for Brazilian fixed-width banking files, with layout linting and property-based tests. |
 

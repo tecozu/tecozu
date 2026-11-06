@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="Renato Araújo, Data Engineer">
+  <style>
+    text { font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; }
+    .title { font-size: 48px; font-weight: 700; fill: #e6edf3; }
+    .role { font-size: 24px; font-weight: 600; fill: #4493f8; }
+    .tag { font-size: 18px; fill: #9198a1; }
+    .node { fill: #0d1117; stroke: #3d444d; stroke-width: 1.5; }
+    .label { font-size: 15px; font-weight: 600; fill: #e6edf3; text-anchor: middle; }
+    .edge { stroke: #4493f8; stroke-width: 2; fill: none; opacity: .6; }
+    .src { fill: #4493f8; opacity: .8; }
+    .cap { font-size: 13px; fill: #9198a1; text-anchor: middle; letter-spacing: .5px; }
+  </style>
+  <rect width="1200" height="240" rx="16" fill="#161b22"/>
+  <text class="title" x="56" y="104">Renato Araújo</text>
+  <text class="role" x="56" y="146">Data Engineer · Structured Credit</text>
+  <text class="tag" x="56" y="184">Financial rules → tested, observable data pipelines</text>
+
+  <circle class="src" cx="736" cy="84" r="7"/>
+  <circle class="src" cx="736" cy="120" r="7"/>
+  <circle class="src" cx="736" cy="156" r="7"/>
+  <path class="edge" d="M743 84 C765 84 768 120 790 120"/>
+  <path class="edge" d="M743 120 L790 120"/>
+  <path class="edge" d="M743 156 C765 156 768 120 790 120"/>
+  <rect class="node" x="790" y="102" width="96" height="36" rx="8"/>
+  <text class="label" x="838" y="125">ingest</text>
+  <path class="edge" d="M886 120 L914 120"/>
+  <rect class="node" x="914" y="102" width="96" height="36" rx="8"/>
+  <text class="label" x="962" y="125">model</text>
+  <path class="edge" d="M1010 120 L1038 120"/>
+  <rect class="node" x="1038" y="102" width="96" height="36" rx="8"/>
+  <text class="label" x="1086" y="125">serve</text>
+  <text class="cap" x="935" y="184">idempotent · tested · observable</text>
+</svg>

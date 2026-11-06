@@ -1,20 +1,25 @@
-## Hi, I'm Renato 👋
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img alt="Renato Araújo, Data Engineer: financial rules turned into tested, observable data pipelines" src="assets/banner-light.svg" width="100%">
+</picture>
 
-**Data Engineer** · GCP · BigQuery · Dataform · dbt · Python · SQL
-Rio de Janeiro, Brazil · open to remote ·
-[LinkedIn](https://www.linkedin.com/in/araujo-o-renato/) · araujorenato.o@outlook.com
+<p>
+  <a href="https://www.linkedin.com/in/araujo-o-renato/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-araujo--o--renato-0A66C2?style=flat-square"></a>
+  <a href="mailto:araujorenato.o@outlook.com"><img alt="Email" src="https://img.shields.io/badge/Email-araujorenato.o%40outlook.com-555555?style=flat-square"></a>
+  <img alt="Rio de Janeiro, UTC-3" src="https://img.shields.io/badge/Rio_de_Janeiro-UTC--3,_overlaps_US_hours-555555?style=flat-square">
+  <img alt="Open to remote roles" src="https://img.shields.io/badge/open_to-remote_roles-2ea44f?style=flat-square">
+</p>
 
-I build data platforms for **structured credit**. I have spent 5+ years at a Brazilian
-securitization firm that manages receivables investment funds (FIDCs), moving from
-analyst to data engineer. My work turns complex financial rules (present value, credit
-provisioning, reconciliation) into modular, tested and observable pipelines.
+I build data platforms for **structured credit**. Over 5+ years at a Brazilian securitization
+firm that manages receivables investment funds (FIDCs), I moved from analyst to data engineer,
+turning complex financial rules (present value, credit provisioning, reconciliation) into
+modular, tested and observable pipelines on GCP.
 
-**Recent impact (production, GCP)**
-- Rebuilt fund-portfolio generation on BigQuery/Dataform, Cloud Run and Cloud Workflows.
-  Runtime went **from 6–8 hours to ~30 seconds**.
-- Configuration-driven design: onboarding a new fund went **from 10 business days to 1**,
-  with 6 funds in production on one codebase.
-- Data-quality assertions and step-level execution tracking on every pipeline stage.
+### Recent impact (production)
+
+| **6–8 h → ~30 s** | **10 days → 1 day** | **6 funds** |
+|:---:|:---:|:---:|
+| fund-portfolio generation, rebuilt on BigQuery/Dataform, Cloud Run and Cloud Workflows | to onboard a new fund, thanks to a configuration-driven design | in production on one codebase, with data-quality assertions and step-level tracking |
 
 ### Featured projects
 
@@ -30,12 +35,37 @@ provisioning, reconciliation) into modular, tested and observable pipelines.
 
 ### Toolbox
 
-**Cloud:** GCP (BigQuery, Dataform, Cloud Run, GCS, Cloud Workflows), AWS S3 ·
-**Transformation:** SQL, dbt, Dataform (SQLX/JS), Python, pandas ·
-**Storage:** BigQuery, DuckDB, PostgreSQL, SQL Server ·
-**Orchestration & infra:** Airflow, Docker, GitHub Actions ·
-**Quality:** dbt tests, Dataform assertions, pytest, data contracts ·
-**BI:** Power BI, Superset
+**Cloud & warehouse**
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
+![Dataform](https://img.shields.io/badge/Dataform-1A73E8?style=flat-square)
+![Cloud Run](https://img.shields.io/badge/Cloud_Run-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?style=flat-square)
+
+**Transformation**
+![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+
+**Storage**
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square)
+
+**Orchestration & infra**
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+**Quality & BI**
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![Data contracts](https://img.shields.io/badge/data_contracts-6E7781?style=flat-square)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square)
+![Superset](https://img.shields.io/badge/Superset-20A6C9?style=flat-square)
+
+### Background
 
 Certifications: Google *Build a Data Warehouse with BigQuery* · dbt Fundamentals · Databricks Fundamentals.
-MBA in Business Management at FGV (in progress). Portuguese (native), English (fluent), Spanish (intermediate).
+MBA in Business Management at FGV (in progress).
+Languages: Portuguese (native), English (fluent), Spanish (intermediate).
